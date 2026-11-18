@@ -29,7 +29,6 @@ function copyVanillaAssetsPlugin(): Plugin {
 
 export default defineConfig(() => {
   return {
-    base:'/Claim-Care/',
     plugins: [copyVanillaAssetsPlugin()],
     resolve: {
       alias: {
